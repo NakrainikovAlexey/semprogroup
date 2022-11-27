@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  @media (max-width: 720px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.partnership {
+  width: 430px;
+  height: 130px;
+  margin: 99px 83px 0 171px;
+  @media (max-width: 720px) {
+    margin: 99px 83px 0 70px;
+  }
+
+  & h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 90%;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  & span {
+    display: inline-block;
+    margin: 39px 0 13px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+}
+
+.number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
